@@ -1,0 +1,71 @@
+#page-content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color:dodgerblue;
+}
+
+#topDiv{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20%;
+    align-items: center;
+    width: 90%;
+}
+
+#bottomDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+#counterDiv{
+    display: flex;
+    width: 25%;
+    height: 20vh;
+    flex-direction: column;
+    background-color: limegreen;
+    color: white;
+    align-items: center;
+}
+
+#addSubtractDiv{
+    display: flex;
+    width: 25%;
+    height: 20vh;
+    flex-direction: column;
+    background-color: limegreen;
+    color: white;
+    align-items: center;
+}
+
+#displayCounterDiv{
+    display: flex;
+    width: 25%;
+    height: 20vh;
+    flex-direction: column;
+    background-color: limegreen;
+    color:white;
+    text-align: center;
+}
+
+#buttonDiv{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    background-color: gray;
+    color: white;
+    border: none;
+}
